@@ -1,0 +1,57 @@
+{
+  "snapshot_date": "2026-09-24",
+  "official_updated": "2026-09-22",
+  "source_url": "https://www.canada.ca/content/dam/ircc/documents/json/data-ptime-en.json",
+  "raw_sha256": "af1d501ea247d4cb7fa5a999896ed628f876d629566e05383266ca17e92eaa7b",
+  "median_method": "Unweighted median of countries with a numeric time; 1 week = 7 days; 1 month = 365.25/12 days; unavailable values excluded.",
+  "applications": [
+    {
+      "id": "visitor-outside-canada",
+      "label_zh": "境外访客签证",
+      "countries_total": 211,
+      "countries_with_time": 170,
+      "china_original": "35 days",
+      "china_days": 35,
+      "global_median_days": 36,
+      "source_ids": [
+        "ircc-ptime-country-json"
+      ]
+    },
+    {
+      "id": "supervisa",
+      "label_zh": "超级签证",
+      "countries_total": 212,
+      "countries_with_time": 37,
+      "china_original": "77 days",
+      "china_days": 77,
+      "global_median_days": 58,
+      "source_ids": [
+        "ircc-ptime-country-json"
+      ]
+    },
+    {
+      "id": "study",
+      "label_zh": "境外学签",
+      "countries_total": 212,
+      "countries_with_time": 100,
+      "china_original": "4 weeks",
+      "china_days": 28,
+      "global_median_days": 35,
+      "source_ids": [
+        "ircc-ptime-country-json"
+      ]
+    },
+    {
+      "id": "work",
+      "label_zh": "境外工签",
+      "countries_total": 212,
+      "countries_with_time": 62,
+      "china_original": "4 weeks",
+      "china_days": 28,
+      "global_median_days": 42,
+      "source_ids": [
+        "ircc-ptime-country-json"
+      ]
+    }
+  ]
+}
