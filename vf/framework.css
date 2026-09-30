@@ -28,3 +28,20 @@ body[data-vf-site="youth-care-guide"] .vf-welcome{border:0;background:#e9f4ef}.v
 @media(max-width:760px){body[data-vf-site] .vf-welcome{grid-template-columns:1fr;gap:28px;padding:28px 22px;margin:16px auto 32px}.vf-welcome h1{font-size:34px!important}.vf-network-label{display:none}body[data-vf-site] .vf-network{gap:8px 16px;padding:8px 16px}.vf-network .vf-wordmark{margin-right:auto}.vf-wordmark span{display:none}.vf-routes h2{margin-top:16px!important}.vf-route{padding:15px 0!important}.vf-workspace h1{font-size:32px!important}.vf-actions{gap:10px 16px}.vf-network a{min-height:36px}}
 @media(prefers-reduced-motion:reduce){.vf-route{transition:none!important}html{scroll-behavior:auto!important}}
 @media print{.vf-network,.vf-tools,body>header,.vf-actions,body>footer,.menu-btn,nav,.lb{display:none!important}body[data-vf-site]{background:#fff;color:#000}body[data-vf-site] .vf-workspace{max-width:none;padding:0}.vf-panel{break-inside:avoid}.vf-welcome{break-inside:avoid}.vf-checklist input{appearance:auto}a{color:#000!important}.vf-panel a:after{content:" (" attr(href) ")";font-size:10px;overflow-wrap:anywhere}[data-vf-saved] button{display:none}}
+/* 整卡可点（2026-09-30，用户令「card 里可以直接点击进入下一页」）
+   用法：卡片容器加 .vf-card，卡里的主链接（通常是标题里的 <a>）加 .vf-card-link；
+   卡底原来那行「查看更多 →」若保留作视觉提示，改成 <span class="vf-card-cue" aria-hidden="true">。
+   主链接的 ::after 伸展覆盖整卡；卡内其他链接、按钮、表单抬到上层，仍可单独点。不把整卡包成 <a>（内含链接会非法嵌套）。 */
+.vf-card{position:relative}
+.vf-card .vf-card-link::after{content:"";position:absolute;inset:0;z-index:1;border-radius:inherit}
+.vf-card a:not(.vf-card-link),.vf-card button,.vf-card input,.vf-card select,.vf-card summary,.vf-card label{position:relative;z-index:2}
+.vf-card:hover{cursor:pointer;border-color:var(--vf-accent,currentColor);box-shadow:0 6px 18px rgba(0,0,0,.10)}
+.vf-card:hover .vf-card-link{text-decoration:underline}
+.vf-card .vf-card-link:focus{outline:none}
+.vf-card .vf-card-link:focus-visible::after{outline:3px solid var(--vf-accent,currentColor);outline-offset:-3px}
+.vf-card:has(.vf-card-link:focus-visible){box-shadow:0 0 0 1px var(--vf-accent,currentColor)}
+.vf-card-cue{display:inline-block;margin-top:8px;font-weight:700;color:var(--vf-accent,currentColor)}
+@media (prefers-reduced-motion:no-preference){.vf-card{transition:box-shadow .15s ease,border-color .15s ease}}
+.vf-card.vf-auto h3 .vf-card-link{color:inherit;text-decoration:none}
+.vf-card.vf-auto:hover h3 .vf-card-link{text-decoration:underline}
+.vf-card.vf-auto .vf-card-cue{margin-top:0}
