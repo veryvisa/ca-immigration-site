@@ -1,0 +1,3 @@
+/* Load the unchanged shared framework in the reset layer on V2 pages only. */
+@layer reset, theme, base, layout, components, site, utilities;
+@import url('../vf/framework.css') layer(reset);

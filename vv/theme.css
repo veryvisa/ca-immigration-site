@@ -1,0 +1,13 @@
+/* 生成物：bin/site_tokens.py ca-immigration。别手改，改 tokens/*.json 后重跑。 */
+@layer theme {
+:root{color-scheme:light dark;--vv-step--1:clamp(0.875rem, 0.8476rem + 0.1124vw, 0.9375rem);--vv-step-0:clamp(1.0625rem, 1.0351rem + 0.1124vw, 1.125rem);--vv-step-1:clamp(1.1875rem, 1.1327rem + 0.2247vw, 1.3125rem);--vv-step-2:clamp(1.375rem, 1.2654rem + 0.4494vw, 1.625rem);--vv-step-3:clamp(1.625rem, 1.4059rem + 0.8989vw, 2.125rem);--vv-step-4:clamp(1.875rem, 1.4916rem + 1.5730vw, 2.75rem);--vv-space-3xs:0.25rem;--vv-space-2xs:0.5rem;--vv-space-xs:0.75rem;--vv-space-s:1rem;--vv-space-m:1.5rem;--vv-space-l:2.25rem;--vv-space-xl:3.5rem;--vv-space-2xl:5rem;
+--vv-font-sans:system-ui, -apple-system, "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif;--vv-font-serif:"Songti SC", "Noto Serif SC", "Source Han Serif SC", "STSong", serif;--vv-font-kai:"Kaiti SC", "STKaiti", "LXGW WenKai", serif;--vv-font-mono:ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+--vv-font-heading:"Songti SC", "Noto Serif SC", "Source Han Serif SC", "STSong", serif;--vv-radius:10px;--vv-radius-l:18px;--vv-leading:1.8;
+--vv-measure:38ic;--vv-wide:72rem;
+--vv-target:44px;--vv-focus-w:3px;--vv-focus-o:2px;
+--vv-dur:200ms;--vv-ease:cubic-bezier(.2,.7,.2,1);
+--vv-bg:#f8f7f1;--vv-surface:#fefefc;--vv-surface-2:#e6f4ef;--vv-accent-soft:#fdece9;--vv-line:#dcd9ce;--vv-line-strong:#838076;--vv-ink:#221f17;--vv-muted:#5b584c;--vv-primary:#19604e;--vv-accent:#a83630;--vv-on-primary:#fefdfc;--vv-focus:#af3d36;--vv-st-open:#146d34;--vv-st-paused:#895706;--vv-st-closed:#a5292b}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--vv-bg:#12100d;--vv-surface:#1a1918;--vv-surface-2:#1b2522;--vv-accent-soft:#31201e;--vv-line:#38352c;--vv-line-strong:#838076;--vv-ink:#eeebdf;--vv-muted:#b8b4a6;--vv-primary:#8bceb8;--vv-accent:#fe8b7f;--vv-on-primary:#100f0e;--vv-focus:#ffa196;--vv-st-open:#83d494;--vv-st-paused:#fab45f;--vv-st-closed:#ff958e}}
+:root[data-theme=dark]{color-scheme:dark;--vv-bg:#12100d;--vv-surface:#1a1918;--vv-surface-2:#1b2522;--vv-accent-soft:#31201e;--vv-line:#38352c;--vv-line-strong:#838076;--vv-ink:#eeebdf;--vv-muted:#b8b4a6;--vv-primary:#8bceb8;--vv-accent:#fe8b7f;--vv-on-primary:#100f0e;--vv-focus:#ffa196;--vv-st-open:#83d494;--vv-st-paused:#fab45f;--vv-st-closed:#ff958e}
+:root[data-theme=light]{color-scheme:light}
+}
