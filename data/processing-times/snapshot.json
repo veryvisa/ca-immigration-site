@@ -1,8 +1,8 @@
 {
-  "snapshot_date": "2026-09-24",
-  "official_updated": "2026-09-22",
+  "snapshot_date": "2026-10-26",
+  "official_updated": "2026-10-21",
   "source_url": "https://www.canada.ca/content/dam/ircc/documents/json/data-ptime-en.json",
-  "raw_sha256": "af1d501ea247d4cb7fa5a999896ed628f876d629566e05383266ca17e92eaa7b",
+  "raw_sha256": "43881e7e6cc21c871d3e1b4587116db0d5193d5518761b2bb50949ab642866c6",
   "median_method": "Unweighted median of countries with a numeric time; 1 week = 7 days; 1 month = 365.25/12 days; unavailable values excluded.",
   "applications": [
     {
@@ -10,9 +10,9 @@
       "label_zh": "境外访客签证",
       "countries_total": 211,
       "countries_with_time": 170,
-      "china_original": "35 days",
-      "china_days": 35,
-      "global_median_days": 36,
+      "china_original": "42 days",
+      "china_days": 42,
+      "global_median_days": 37.5,
       "source_ids": [
         "ircc-ptime-country-json"
       ]
@@ -21,10 +21,10 @@
       "id": "supervisa",
       "label_zh": "超级签证",
       "countries_total": 212,
-      "countries_with_time": 37,
-      "china_original": "77 days",
-      "china_days": 77,
-      "global_median_days": 58,
+      "countries_with_time": 38,
+      "china_original": "89 days",
+      "china_days": 89,
+      "global_median_days": 59.5,
       "source_ids": [
         "ircc-ptime-country-json"
       ]
@@ -33,10 +33,10 @@
       "id": "study",
       "label_zh": "境外学签",
       "countries_total": 212,
-      "countries_with_time": 100,
-      "china_original": "4 weeks",
-      "china_days": 28,
-      "global_median_days": 35,
+      "countries_with_time": 92,
+      "china_original": "8 weeks",
+      "china_days": 56,
+      "global_median_days": 42,
       "source_ids": [
         "ircc-ptime-country-json"
       ]
@@ -45,10 +45,10 @@
       "id": "work",
       "label_zh": "境外工签",
       "countries_total": 212,
-      "countries_with_time": 62,
-      "china_original": "4 weeks",
-      "china_days": 28,
-      "global_median_days": 42,
+      "countries_with_time": 61,
+      "china_original": "5 weeks",
+      "china_days": 35,
+      "global_median_days": 49,
       "source_ids": [
         "ircc-ptime-country-json"
       ]
