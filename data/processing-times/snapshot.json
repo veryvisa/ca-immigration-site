@@ -1,8 +1,8 @@
 {
-  "snapshot_date": "2026-11-18",
-  "official_updated": "2026-11-18",
+  "snapshot_date": "2026-11-25",
+  "official_updated": "2026-11-25",
   "source_url": "https://www.canada.ca/content/dam/ircc/documents/json/data-ptime-en.json",
-  "raw_sha256": "61369c24dfcc548d0bbb386e1d7fd45c2c5528cc2817108a7de3779e58bf01ab",
+  "raw_sha256": "d33740ffa9e9d0683bef04237b3cbf9b6c01aeb23f94001cb4df7611bf315408",
   "median_method": "Unweighted median of countries with a numeric time; 1 week = 7 days; 1 month = 365.25/12 days; unavailable values excluded.",
   "applications": [
     {
@@ -10,9 +10,9 @@
       "label_zh": "境外访客签证",
       "countries_total": 211,
       "countries_with_time": 170,
-      "china_original": "49 days",
-      "china_days": 49,
-      "global_median_days": 36.5,
+      "china_original": "45 days",
+      "china_days": 45,
+      "global_median_days": 35,
       "source_ids": [
         "ircc-ptime-country-json"
       ]
@@ -22,9 +22,9 @@
       "label_zh": "超级签证",
       "countries_total": 212,
       "countries_with_time": 39,
-      "china_original": "90 days",
-      "china_days": 90,
-      "global_median_days": 58,
+      "china_original": "86 days",
+      "china_days": 86,
+      "global_median_days": 51,
       "source_ids": [
         "ircc-ptime-country-json"
       ]
@@ -33,7 +33,7 @@
       "id": "study",
       "label_zh": "境外学签",
       "countries_total": 212,
-      "countries_with_time": 85,
+      "countries_with_time": 83,
       "china_original": "12 weeks",
       "china_days": 84,
       "global_median_days": 35,
@@ -46,9 +46,9 @@
       "label_zh": "境外工签",
       "countries_total": 212,
       "countries_with_time": 58,
-      "china_original": "4 weeks",
-      "china_days": 28,
-      "global_median_days": 63,
+      "china_original": "5 weeks",
+      "china_days": 35,
+      "global_median_days": 59.5,
       "source_ids": [
         "ircc-ptime-country-json"
       ]
